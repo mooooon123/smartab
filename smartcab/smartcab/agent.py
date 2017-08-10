@@ -61,7 +61,7 @@ class LearningAgent(Agent):
 
         # This smaller state increases the probability that all states will be
         # visited, giving the agent the chance to learn something useful
-        state = (waypoint, inputs['light'], inputs['oncoming'])
+        state = (waypoint, inputs['light'], inputs['oncoming'],inputs['left'])
 
         
         return state
